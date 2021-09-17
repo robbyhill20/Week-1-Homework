@@ -4,21 +4,25 @@
     padding: 0;
     margin: 0;
 }
-
+ /* Set text color to white*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
+ /* Set font size to 20px */
+ 
+ p {
     font-size: 20px;
 }
 
+ /* Set background color to white */
 body {
     background-color: #fefffd;
 }
 
 
+ /* Setting display, margin, and max height of the images */
 img {
     display: block;
     margin: 10px auto;
@@ -27,24 +31,30 @@ img {
     
 }
 
+ /*Setting Display style of the "Horiseon" text at the top of the web page */
 h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
-h2 {
+ /* Setting margin, max height, and font size for all of the H2 elements which are within the main element*/
+ 
+ h2 {
     margin-bottom: 20px;
     font-size: 36px;
     max-height: 200px
 }
 
 
+ /* Setting margin and align text for the h3 elements located in the aside */
+     
 h3 {
     margin-bottom: 10px;
     text-align: center
 }
 
+/* Setting margin and display for the list items */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -52,6 +62,8 @@ li {
     
 
 }
+
+/* Aligning text, changing font sixe and padding for the footer*/
 
 footer {
     padding: 30px;
@@ -62,12 +74,15 @@ footer {
 }
 
 
+ /* Formatting header*/
  header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3a3a3a;
     color: #ffffff;
 }
+
+/* formatting the nav bar in the header, floating content to the right*/
 
 header nav {
     padding-top: 15px;
@@ -78,6 +93,7 @@ header nav {
 }
 
 
+/* adding the background picture below the header*/
 .hero{
     height: 800px;
     width: 100%;
@@ -87,11 +103,13 @@ header nav {
     background-position: center;
 }
 
+/* floating items in this class to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* flaoting items in this class to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -102,6 +120,7 @@ header nav {
     width: 75%;
     }
 
+/* formatting section container margin size, font, background color, and display*/
 section {
     margin-bottom: 20px;
     padding: 20px;
@@ -112,7 +131,7 @@ section {
     display: inline-block;
     width: 100%;
 }
-
+/*setting margin, patting, and font for the benefits class and floating right*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,11 +139,13 @@ section {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color:#474747;
     margin-bottom: 0px;
     color: #ffffff;
 }
+
+/*setting max width of the images in the benefits class to 150px instead of 200px*/
 
 .benefits img {
     max-width: 150px;
